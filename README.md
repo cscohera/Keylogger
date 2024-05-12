@@ -9,6 +9,8 @@ that I named System33. I wanted to also not make something that was unrealistic 
 I only kept this name for demonstration purposes and clarity. Some parts of this code use techniques such as Code Obfuscation and Steganography. I will explain how I used these terms.
 
 1. Code Obfuscation
+
+
     This technique invloved changing variable names to be more obscure, adding junk code, and adding random functions that never run but appear to.
     These are all ways it can be much more difficult for someone to detect Mal intent. Below are some example in my code
 
@@ -16,7 +18,9 @@ I only kept this name for demonstration purposes and clarity. Some parts of this
 
    ![codepart2](https://github.com/cscohera/Keylogger/assets/155030761/5d7cd834-7c84-4033-a2fc-57818c606849)
 
-2. Steganography
+3. Steganography
+
+   
     This technique involved hiding data within other non-suspicious data, which I used an Image
     I will not be including this in my repository but I will show you what It does
     The basic overview is that I binded a windows image of a boulder with my KeyLogger's Executable using winrar so that
