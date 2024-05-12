@@ -17,6 +17,20 @@ I only kept this name for demonstration purposes and clarity. Some parts of this
    ![codepart2](https://github.com/cscohera/Keylogger/assets/155030761/5d7cd834-7c84-4033-a2fc-57818c606849)
 
 2. Steganography
+    This technique involved hiding data within other non-suspicious data, which I used an Image
+    I will not be including this in my repository but I will show you what It does
+    The basic overview is that I binded a windows image of a boulder with my KeyLogger's Executable using winrar so that
+    it appears to be just a image of said boulder. However, when said image is now open it also runs the Keylogger in the 
+    background completely hidden from the user.
+
+    ![BindingImageSetup](https://github.com/cscohera/Keylogger/assets/155030761/826ca115-f4db-48bd-b7d3-190783574b5b)
+
+
+   Here you can see that the image of the boulder opened and in the background the Keylogger is now running.
+   Also looking at the malware image labled picexe.png I used a technique with a rlo character that swapped exe with png
+   so that the image appears to be a png.
+
+   ![Demestartion](https://github.com/cscohera/Keylogger/assets/155030761/3f4ceb64-f4c2-4047-9c56-c0974a2e53fb)
 
 
 # Things to LookOut for
