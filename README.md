@@ -27,8 +27,8 @@ I only kept this name for demonstration purposes and clarity. Some parts of this
 3. Steganography
 
    
-    This technique involved hiding data within other non-suspicious data, which I used an Image
-    I will not be including this in my repository but I will show you what It does
+    This technique involved hiding data within other non-suspicious data. I will be using an image as an example.
+    I will not be including this in my repository but I will show you what it does
     The basic overview is that I binded a windows image of a boulder with my KeyLogger's Executable using winrar so that
     it appears to be just a image of said boulder. However, when said image is now open it also runs the Keylogger in the 
     background completely hidden from the user.
