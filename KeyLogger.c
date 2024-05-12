@@ -1,3 +1,5 @@
+//ADDING libraries some needed some not for confusion
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
