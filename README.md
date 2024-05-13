@@ -82,7 +82,7 @@ I only kept this name for demonstration purposes and clarity. Some parts of this
 2. **Overall Lower Performance and Faster Battery Drain**
 
    As said above Malware can be resource hungry so seeing a sudden inexplained drop in performance for a long period of time may be a indicator
-   that its worth investigating.
+   that you need to investigate your device for possible malicious software.
 
 3. **Changes to Your Device**
 
