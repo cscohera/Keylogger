@@ -65,13 +65,13 @@ I only kept this name for demonstration purposes and clarity. Some parts of this
    ![Demestartion](https://github.com/cscohera/Keylogger/assets/155030761/3f4ceb64-f4c2-4047-9c56-c0974a2e53fb)
 
 
-# Things to LookOut for
+# Things to Look Out for
 1. **High CPU Usage**
    
    While not always the case High CPU Usage could indicate a virus/Malware. If a seemingly normal application is taking up vast amounts of resources
    it may be worth investigation. Many types of Malware use on a computer are resource demanding and will take up CPU Usage
 
-2. **Overall lower Performance and faster Battery Drain**
+2. **Overall Lower Performance and Faster Battery Drain**
 
    As said above Malware can be resource hungry so seeing a sudden inexplained drop in performance for a long period of time may be a indicator
    that its worth investigating.
