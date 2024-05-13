@@ -1,5 +1,5 @@
 # Disclaimer
-This KeyLogger was created for EDUCATIONAL USE ONLY. Using this for anything malicious intent will have legal repercussions. DO NOT USE this on any computer that is not JUST YOUR SOLE computer or on
+This KeyLogger was created for **EDUCATIONAL USE ONLY**. Using this for anything malicious intent will have **legal repercussions**. DO NOT USE this on any computer that is not JUST YOUR SOLE computer or on
 a unsuspecting user. Only use this with explicit permission on devices that condone it. It should only be used with proper authorization 
 
 # Keylogger
@@ -15,7 +15,7 @@ https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
 I wanted to also not make something that was unrealistic i.e a file named keylogger that logs keys. For real use most likley the name would be something much less obvious,
 I only kept this name for demonstration purposes and clarity. Some parts of this code use techniques such as Code Obfuscation and Steganography. I will explain how I used these terms.
 
-1. Code Obfuscation
+1. **Code Obfuscation**
 
 
     This technique invloved changing variable names to be more obscure, adding junk code, and adding random functions that never run but appear to.
@@ -42,7 +42,7 @@ I only kept this name for demonstration purposes and clarity. Some parts of this
 
    ![code](https://github.com/cscohera/Keylogger/assets/155030761/3a68de89-f405-485b-966d-99a94e939ea1)
 
-3. Steganography
+2. **Steganography**
 
    
     This technique involved hiding data within other non-suspicious data. I will be using an image as an example.
@@ -66,4 +66,25 @@ I only kept this name for demonstration purposes and clarity. Some parts of this
 
 
 # Things to LookOut for
-1. High CPU Usage
+1. **High CPU Usage**
+   
+   While not always the case High CPU Usage could indicate a virus/Malware. If a seemingly normal application is taking up vast amounts of resources
+   it may be worth investigation. Many types of Malware use on a computer are resource demanding and will take up CPU Usage
+
+2. **Overall lower Performance and faster Battery Drain**
+
+   As said above Malware can be resource hungry so seeing a sudden inexplained drop in performance for a long period of time may be a indicator
+   that its worth investigating.
+
+3. **Changes to Your Device**
+
+   You may notice things you haven't seen before like new tabs, websites opened, new toolbars or icons, and many other things that are different
+   about your work space. It is crucial to notice these things especially after downloading something or accessing a site that seems malicious.
+
+# Prevention
+
+    Really think about what you download and make sure you fully trust the site. Be careful of links.  
+    If you are unsure if a site is safe to click always check with sites like this: https://nordvpn.com/link-checker/
+    This can prevent you from having a lot more trouble. 
+    In emails check email addresses, email spellings, and every aspect of emails 
+    you don't fully trust before clicking a link or replying with information.
