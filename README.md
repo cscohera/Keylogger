@@ -65,6 +65,14 @@ I only kept this name for demonstration purposes and clarity. Some parts of this
    ![Demestartion](https://github.com/cscohera/Keylogger/assets/155030761/3f4ceb64-f4c2-4047-9c56-c0974a2e53fb)
 
 
+   What's really cool to see is when we try to move picexe.png into a folder it is recognised as possible malware
+   which means we created our KeyLogger correctly!
+   
+
+   ![awesome](https://github.com/cscohera/Keylogger/assets/155030761/993e8a8c-1133-42e4-8d46-0511e31af6a4)
+
+
+
 # Things to Look Out for
 1. **High CPU Usage**
    
